@@ -1,0 +1,27 @@
+  GNU nano 5.4                                     pipes2.sh.save                                               
+#!/bin/bash
+
+function getFiles()
+{
+echo "getFiles is called !"
+Files=`ls -1 | sort | head -9`
+}
+
+function showFiles()
+{
+function getFiles()
+{
+echo "getFiles is called !"
+Files=`ls -1 | sort | head -9`
+}echo "ShowFiles is called !"
+local COUNT=1
+for FILE in $@
+do
+echo "File $COUNT = $FILE"
+((COUNT++))
+done
+}
+
+getFiles
+showFiles $FILES
+exit 0

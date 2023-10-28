@@ -1,0 +1,16 @@
+#!/bin/bash
+if [ "$1" = "like" ]
+then 
+ echo "Please $1 this video"
+else
+echo "Then Please subscribe"
+fi
+
+count=0
+
+while [ $count -lt 10  ]
+do 
+echo "count= $count " 
+(( count++ ))
+done 
+echo "while loop completed"

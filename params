@@ -1,0 +1,12 @@
+echo "I will be great devops eng"
+echo $BASH
+echo "I am happy right now and will remain so forever"
+
+name="mahesh"
+echo "hello ${name} Please enter your age - "
+read age
+sleep 5
+echo "My age is ${age}"
+
+echo "This is my first argument $1 " 
+echo "This is my second  argument $2 " 

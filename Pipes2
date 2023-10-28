@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+function showFiles()
+{
+Files=`ls -1 | sort | head -9`
+echo "ShowFiles is called !"
+local COUNT=1
+for FILE in $Files
+do
+echo "File $COUNT = $FILE"
+((COUNT++))
+done
+}
+
+getFiles
+showFiles
+exit 0

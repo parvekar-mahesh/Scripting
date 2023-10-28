@@ -1,0 +1,20 @@
+#!/bin/bash                                            
+
+
+function Hello()
+{
+local LName=$1
+echo "Hello $LName"
+}
+function Bye()
+{
+
+echo "Bye $1"
+}
+
+Hello Mahesh
+Bye Laxman
+exit 0
+
+
+

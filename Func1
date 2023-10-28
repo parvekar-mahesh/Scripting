@@ -1,0 +1,18 @@
+                                           
+#!/bin/bash
+
+function Hello()
+{
+echo "Hello"
+}
+
+goodBye()
+{
+echo "goodBye"
+}
+
+echo "calling hello function"
+
+Hello
+
+goodBye

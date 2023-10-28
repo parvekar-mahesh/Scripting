@@ -1,0 +1,31 @@
+#!/bin/bash
+a=100
+b=2000
+c=300
+if [[ $a -gt $b &&  $a -gt $c ]]
+then
+echo "A is  biggest"
+
+elif  [[ $b -gt $a &&  $b -gt $c ]]
+then
+echo "B is greates"
+
+else
+echo "C is  geretaes"
+fi
+
+for(( i=0 ; i<10 ; i++  ))
+do 
+echo "$i"
+done
+
+for FILE in *
+do
+echo "$FILE"
+
+done
+for FILE in *.txt
+do
+echo "$FILE"
+
+done
