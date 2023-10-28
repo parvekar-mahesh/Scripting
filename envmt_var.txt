@@ -1,0 +1,13 @@
+ 
+#!/bin/bash
+
+echo "Th path is : $PATH"
+echo "The Trminal is : $TERM"
+echo "The Editor is : $EDITOR"
+
+if [ -z $EDITOR   ]
+then
+echo "The editor variable is not set"
+fi
+
+echo "The computername is $HOSTNAME , the User Name is $USER and the Home directory is $HOME "
